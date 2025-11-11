@@ -1,21 +1,24 @@
 id: genai-eu
-name: genai-eu
+name: GenAI Governance Archive
 tagline: ''
 description: ''
 dataset: https://github.com/OpenTermsArchive/genai-eu-versions/releases
 declarations: https://github.com/OpenTermsArchive/genai-eu-declarations
 versions: https://github.com/OpenTermsArchive/genai-eu-versions
 snapshots: https://github.com/OpenTermsArchive/genai-eu-snapshots
-donations: ''
-logo: ''
-languages: []
-jurisdictions: []
+languages:
+  - en
+jurisdictions:
+  - EU
 trackingPeriods:
-  - startDate: 2025-11-11
-    schedule: "30 */12 * * *"
-    serverLocation: ''
+  - startDate: '2025-11-11'
+    schedule: 30 */12 * * *
+    serverLocation: Limburg, DE
 governance:
-  OpenTermsArchive:
+  Platform Governance Archive:
     url: ''
     logo: ''
-    roles: [administrator, curator, maintainer]
+    roles:
+      - administrator
+      - curator
+      - maintainer
