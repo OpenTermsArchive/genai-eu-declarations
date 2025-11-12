@@ -13,20 +13,16 @@ jurisdictions:
 trackingPeriods:
   - startDate: '2025-11-11'
     schedule: 30 */12 * * *
-    serverLocation: Limburg, DE
+    serverLocation: Bremen, DE
 governance:
   Centre for Media, Communication and Information Research:
     url: https://zemki.uni-bremen.de
     logo: https://opentermsarchive.org/images/contributors/zemki.png
-    roles: [host, sponsor, diffuser]
+    roles: [host, curator, maintainer, contributor, analyst]
   Open Terms Archive:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
     roles: [sysadmin]
-  Platform Governance Archive:
-    url: https://www.platformgovernancearchive.org
-    logo: https://opentermsarchive.org/images/contributors/pga.png
-    roles: [curator, maintainer, analyst]
   Ministry for Europe and Foreign Affairs:
     url: https://www.diplomatie.gouv.fr/en/
     logo: https://opentermsarchive.org/images/contributors/meae.png
