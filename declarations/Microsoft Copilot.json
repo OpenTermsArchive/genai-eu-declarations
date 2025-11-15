@@ -2,9 +2,9 @@
   "name": "Microsoft Copilot",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.bing.com/new/termsofuse?setlang=en",
+      "fetch": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse",
       "select": [
-        "#page_content"
+        "#mainContent"
       ],
       "remove": [
         ".cdx_mkt_brand"
