@@ -1,6 +1,6 @@
 all:
   hosts:
-    134.102.58.70:
+    134.102.58.170:
       ansible_user: ota
-      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIDmKHW4LMOEIxnBHkdNzwvSrzjmfhQkx5n2lFtJdraOy
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIGMSYqzZoTXRS4mQHgwe232jhY7NeRPOiqepxODY9rPU
       ota_source_repository: https://github.com/OpenTermsArchive/genai-eu-declarations.git
