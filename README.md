@@ -1,6 +1,6 @@
 # Declarations of terms tracked in the *genai-eu* collection
 
-The terms in this collection are declared by <!-- customize to your context -->the Open Terms Archive Core Team<!-- until here --> and tracked using [Open Terms Archive](https://opentermsarchive.org).
+The terms in this collection are declared by <!-- customize to your context -->the Centre for Media, Communication and Information Research<!-- until here --> and tracked using [Open Terms Archive](https://opentermsarchive.org).
 
 You can [explore the tracked versions](https://github.com/OpenTermsArchive/genai-eu-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/genai-eu-versions/releases) in the `OpenTermsArchive/genai-eu-versions` repository.
 
