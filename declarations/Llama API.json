@@ -6,7 +6,10 @@
         {
           "fetch": "https://llama.developer.meta.com/legal/terms-of-service",
           "executeClientScripts": true,
-          "select": "[data-pagelet=\"LLMDCPageMainContent\"]"
+          "select": {
+            "startBefore": "h1",
+            "endBefore": "#end-of-content"
+          }
         },
         {
           "fetch": "https://www.facebook.com/legal/terms/data_security_terms",
