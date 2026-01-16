@@ -66,6 +66,18 @@
       "select": [
         "section"
       ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://legal.mistral.ai/terms/usage-policy",
+      "select": [
+        "div"
+      ],
+      "remove": [
+        "button",
+        "footer",
+        "nav",
+        "aside"
+      ]
     }
   }
 }
