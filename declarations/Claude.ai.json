@@ -13,12 +13,16 @@
       ],
       "combine": [
         {
-          "fetch": "https://www.anthropic.com/legal/privacy"
+          "fetch": "https://www.anthropic.com/legal/privacy",
+          "filter": [
+            "removeRedirectFromLinks"
+          ] 
         },
         {
           "fetch": "https://www.anthropic.com/legal/non-user-privacy-policy"
         }
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Commercial Terms": {
       "fetch": "https://www.anthropic.com/legal/commercial-terms",
