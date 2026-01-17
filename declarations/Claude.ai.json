@@ -16,7 +16,7 @@
           "fetch": "https://www.anthropic.com/legal/privacy",
           "filter": [
             "removeRedirectFromLinks"
-          ] 
+          ]
         },
         {
           "fetch": "https://www.anthropic.com/legal/non-user-privacy-policy"
