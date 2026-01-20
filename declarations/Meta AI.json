@@ -1,0 +1,15 @@
+{
+  "name": "Meta AI",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.facebook.com/legal/eu-ai-terms",
+      "executeClientScripts": true,
+      "select": [
+        {
+          "startBefore": "[role=\"main\"]",
+          "endAfter": "[role=\"separator\"]"
+        }
+      ]
+    }
+  }
+}
