@@ -63,7 +63,6 @@
         },
         {
           "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
-          "executeClientScripts": true,
           "select": [
             "#root"
           ],
@@ -71,12 +70,18 @@
             ".k",
             ".l",
             ".bh",
+            "img[style=\"display:none\"]",
+            "img",
             ".bk",
-            ".bi"
+            ".bl",
+            ".bj"
           ],
           "filter": [
-            "removeTrackingIDs"
-          ]
+            "removeTrackingIDs",
+            "cleanUrls",
+            "removeHelpButtons"
+          ],
+          "executeClientScripts": true
         }
       ]
     },
