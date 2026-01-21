@@ -43,14 +43,23 @@
     "Acceptable Use Policy": {
       "fetch": "https://llama.developer.meta.com/legal/acceptable-use-policy",
       "executeClientScripts": true,
-      "select": "[data-pagelet=\"LLMDCPageMainContent\"]"
+      "select": {
+            "startBefore": "h1",
+            "endBefore": "#end-of-content"
+          }
     },
     "Privacy Policy": {
       "combine": [
         {
           "fetch": "https://llama.developer.meta.com/docs/trust/data-commitments",
           "executeClientScripts": true,
-          "select": "[data-pagelet=\"LLMDCPageMainContent\"]"
+          "select": {
+            "startBefore": "h1",
+            "endBefore": "#end-of-content"
+          },
+          "remove": [
+            "[data-pagelet=\"LLMDCSideRail\"]"
+          ]
         },
         {
           "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
