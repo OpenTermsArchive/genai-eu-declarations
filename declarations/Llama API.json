@@ -44,9 +44,9 @@
       "fetch": "https://llama.developer.meta.com/legal/acceptable-use-policy",
       "executeClientScripts": true,
       "select": {
-            "startBefore": "h1",
-            "endBefore": "#end-of-content"
-          }
+        "startBefore": "h1",
+        "endBefore": "#end-of-content"
+      }
     },
     "Privacy Policy": {
       "combine": [
