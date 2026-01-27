@@ -2,15 +2,29 @@
   "name": "Le Chat",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://legal.mistral.ai/terms/eu-consumers-terms-of-service",
-      "select": [
-        "div"
-      ],
-      "remove": [
-        "button",
-        "footer",
-        "nav",
-        "aside"
+      "combine": [
+        {
+          "fetch": "https://legal.mistral.ai/terms/eu-consumers-terms-of-service",
+          "select": [
+            "div"
+          ],
+          "remove": [
+            "button",
+            "footer",
+            "nav",
+            "aside"
+          ]
+        },
+        {
+          "fetch": "https://mistral.ai/legal/",
+          "select": [
+            "main"
+          ],
+          "remove": [
+            "#header",
+            "footer"
+          ]
+        }
       ]
     },
     "Privacy Policy": {
@@ -59,12 +73,6 @@
         "footer",
         "nav",
         "aside"
-      ]
-    },
-    "Imprint": {
-      "fetch": "https://mistral.ai/legal/",
-      "select": [
-        "section"
       ]
     },
     "Acceptable Use Policy": {
