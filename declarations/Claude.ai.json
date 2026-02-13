@@ -9,7 +9,10 @@
     },
     "Privacy Policy": {
       "select": [
-        "main"
+        {
+          "startBefore": "#main-content",
+          "endBefore": "footer"
+        }
       ],
       "combine": [
         {
@@ -19,7 +22,10 @@
           ]
         },
         {
-          "fetch": "https://www.anthropic.com/legal/non-user-privacy-policy"
+          "fetch": "https://www.anthropic.com/legal/non-user-privacy-policy",
+          "filter": [
+            "removeRedirectFromLinks"
+          ]
         }
       ],
       "executeClientScripts": true
