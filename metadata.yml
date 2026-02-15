@@ -1,7 +1,15 @@
 id: genai-eu
 name: GenAI Governance Archive
-tagline: ''
-description: ''
+tagline: Major global generative AI services 
+description: |
+
+The **Generative AI Governance Archive** collection tracks the terms of major global Generative AI (GenAI) providers.
+
+This is the second collection from the team behind [Platform Governance Archive](https://www.platformgovernancearchive.org/) which is maintained by the [Lab Platform Governance, Media and Technology (PGMT)](https://platform-governance.org/) at the University of Bremen [Center for Media Communication and Information Research (ZeMKI)](https://zemki.uni-bremen.de/).
+
+The collection tracks policies of major GenAI providers as they emerge and develop. In so doing, it offers fellow researchers, journalists, and citizens the tools to analyze how GenAI providers regulate the use of their products.
+
+Ultimately, the collection aims to promote greater transparency and accountability of these powerful digital services.
 dataset: https://github.com/OpenTermsArchive/genai-eu-versions/releases
 declarations: https://github.com/OpenTermsArchive/genai-eu-declarations
 versions: https://github.com/OpenTermsArchive/genai-eu-versions
