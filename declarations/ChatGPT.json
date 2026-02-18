@@ -137,6 +137,9 @@
         "main .sr-only"
       ],
       "executeClientScripts": true
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://cdn.openai.com/pdf/openai-law-enforcement-policy-v.2025-12.pdf"
     }
   }
 }
