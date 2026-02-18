@@ -14,20 +14,21 @@
     "Privacy Policy": {
       "fetch": "https://privacy.microsoft.com/en-ie/privacystatement",
       "select": [
-        ".col:nth-child(3)",
-        "#areaheading-uidda881 > .row"
+        "main"
       ],
       "remove": [
-        ".expand_collapse",
-        ".div_print",
-        ".nav_content",
-        ".LearnMoreNavigation",
-        ".TopNavigation",
-        ".CollectingYourInfoRightNav",
-        ".gcc_cookies",
-        "#dvGroupModules",
-        "#dvServicesAgreement"
+        "nav"
       ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.microsoft.com/en-gb/servicesagreement/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "div.page[id$=\"XboxLive\"]"
+      ],
+      "executeClientScripts": true
     }
   }
 }
