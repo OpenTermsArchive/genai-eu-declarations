@@ -28,13 +28,12 @@
             "img[src$='.svg']"
           ]
         },
-                {
+        {
           "fetch": "https://support.google.com/gemini/answer/13594961?hl=en#gemini_apps&zippy=%2Cwhat-are-gemini-apps",
           "select": [
             ".cc"
           ]
         }
-
       ]
     }, 
     "Acceptable Use Policy": {
