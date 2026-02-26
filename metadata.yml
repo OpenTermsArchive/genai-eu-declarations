@@ -31,3 +31,14 @@ governance:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
     roles: [sysadmin]
+i18n:
+  fr: 
+    tagline: Principaux services mondiaux d'IA générative
+    description: | 
+      La collection **Generative AI Governance Archive** recense les conditions générales des principaux fournisseurs mondiaux d'IA générative (GenAI).
+
+      Il s'agit de la deuxième collection de l'équipe à l'origine de [Platform Governance Archive](https://www.platformgovernancearchive.org/), gérée par le [Lab Platform Governance, Media and Technology (PGMT)](https://platform-governance.org/) du [Center for Media Communication and Information Research (ZeMKI)](https://zemki.uni-bremen.de) à l'université de Brême.
+
+      La collection suit les politiques des principaux fournisseurs de GenAI à mesure qu'elles apparaissent et évoluent. Elle offre aux chercheurs, journalistes et citoyens les outils nécessaires pour analyser la manière dont les fournisseurs de GenAI réglementent l'utilisation de leurs produits.
+
+      Ce faisant, la collection vise à promouvoir une plus grande transparence et une meilleure responsabilité de ces puissants services numériques.
