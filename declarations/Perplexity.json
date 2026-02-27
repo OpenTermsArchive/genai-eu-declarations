@@ -36,7 +36,7 @@
       ],
       "executeClientScripts": true
     },
-    "Comercial Terms": {
+    "Commercial Terms": {
       "combine": [
         {
           "fetch": "https://www.perplexity.ai/hub/legal/merchant-program-terms-of-service",
