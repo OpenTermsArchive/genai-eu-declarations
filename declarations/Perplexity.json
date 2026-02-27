@@ -35,6 +35,24 @@
         "[data-framer-name=Post]"
       ],
       "executeClientScripts": true
+    },
+    "Comercial Terms": {
+      "combine": [
+        {
+          "fetch": "https://www.perplexity.ai/hub/legal/merchant-program-terms-of-service",
+          "select": [
+            "[data-framer-name=Post]"
+          ],
+          "executeClientScripts": true
+        },
+        {
+          "fetch": "https://www.perplexity.ai/hub/legal/enterprise-terms-of-service",
+          "select": [
+            "[data-framer-name=Post]"
+          ],
+          "executeClientScripts": true
+        }
+      ]
     }
   }
 }
