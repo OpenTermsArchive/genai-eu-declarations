@@ -6,10 +6,7 @@
         {
           "fetch": "https://llama.developer.meta.com/legal/terms-of-service",
           "executeClientScripts": true,
-          "select": {
-            "startBefore": "h1",
-            "endBefore": "#end-of-content"
-          }
+          "select": "[data-pagelet=LLMDCPageMainContent]"
         },
         {
           "fetch": "https://www.facebook.com/legal/terms/data_security_terms",
@@ -43,20 +40,17 @@
     "Acceptable Use Policy": {
       "fetch": "https://llama.developer.meta.com/legal/acceptable-use-policy",
       "executeClientScripts": true,
-      "select": {
-        "startBefore": "h1",
-        "endBefore": "#end-of-content"
-      }
+      "select": "[data-pagelet=LLMDCPageMainContent]"
     },
     "Privacy Policy": {
+      "filter": [
+        "removeTrackingIDs"
+      ],
       "combine": [
         {
           "fetch": "https://llama.developer.meta.com/docs/trust/data-commitments",
           "executeClientScripts": true,
-          "select": {
-            "startBefore": "h1",
-            "endBefore": "#end-of-content"
-          },
+          "select": "[data-pagelet=LLMDCPageMainContent]",
           "remove": [
             "[data-pagelet=\"LLMDCSideRail\"]"
           ]
@@ -75,11 +69,6 @@
             ".bk",
             ".bl",
             ".bj"
-          ],
-          "filter": [
-            "removeTrackingIDs",
-            "cleanUrls",
-            "removeHelpButtons"
           ],
           "executeClientScripts": true
         }
