@@ -112,6 +112,32 @@
           ]
         }
       ]
+    },
+    "Developer Terms": {
+      "combine": [
+        {
+          "fetch": "https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms",
+          "select": [
+            ".article"
+          ],
+          "remove": [
+            ".avatar__info",
+            ".related_articles"
+          ]
+        },
+        {
+          "fetch": "https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy",
+          "select": [
+            ".article"
+          ],
+          "remove": [
+            ".avatar__info",
+            ".related_articles",
+            "[data-testid=\"toc-body\"]",
+            "[data-testid=\"toc-dropdown\"]"
+          ]
+        }
+      ]
     }
   }
 }
