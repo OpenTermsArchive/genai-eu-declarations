@@ -90,13 +90,27 @@
       ]
     },
     "Law Enforcement Guidelines": {
-      "fetch": "https://support.anthropic.com/en/articles/9035075-law-enforcement-requests",
-      "select": [
-        ".article"
-      ],
-      "remove": [
-        ".avatar__info",
-        ".related_articles"
+      "combine": [
+        {
+          "fetch": "https://privacy.claude.com/en/articles/9519291-what-is-anthropic-s-policy-for-handling-governmental-requests-for-user-information",
+          "select": [
+          ".article"
+          ],
+          "remove": [
+            ".avatar__info",
+            ".related_articles"
+          ]
+        },
+         {
+          "fetch": "https://support.anthropic.com/en/articles/9035075-law-enforcement-requests",
+          "select": [
+          ".article"
+          ],
+          "remove": [
+            ".avatar__info",
+            ".related_articles"
+          ]
+        }
       ]
     }
   }
