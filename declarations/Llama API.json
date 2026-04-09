@@ -6,7 +6,10 @@
         {
           "fetch": "https://llama.developer.meta.com/legal/terms-of-service",
           "executeClientScripts": true,
-          "select": "[data-pagelet=LLMDCPageMainContent]"
+          "select": {
+            "startBefore": "h1",
+            "endAfter": "#end-of-content"
+          }
         },
         {
           "fetch": "https://www.facebook.com/legal/terms/data_security_terms",
@@ -40,7 +43,10 @@
     "Acceptable Use Policy": {
       "fetch": "https://llama.developer.meta.com/legal/acceptable-use-policy",
       "executeClientScripts": true,
-      "select": "[data-pagelet=LLMDCPageMainContent]"
+      "select": {
+        "startAfter": "h1",
+        "endAfter": "#end-of-content"
+      }
     },
     "Privacy Policy": {
       "filter": [
@@ -50,7 +56,10 @@
         {
           "fetch": "https://llama.developer.meta.com/docs/trust/data-commitments",
           "executeClientScripts": true,
-          "select": "[data-pagelet=LLMDCPageMainContent]",
+          "select": {
+            "startBefore": "h1",
+            "endAfter": "#end-of-content"
+          },
           "remove": [
             "[data-pagelet=\"LLMDCSideRail\"]"
           ]
