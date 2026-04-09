@@ -4,8 +4,19 @@
   "files": [
     ".all-contributors.md"
   ],
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "aysdar9",
+      "name": "ays",
+      "avatar_url": "https://avatars.githubusercontent.com/u/224839703?v=4",
+      "profile": "https://github.com/aysdar9",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
   "repoType": "github",
   "commitConvention": "none",
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "commitType": "docs"
 }
