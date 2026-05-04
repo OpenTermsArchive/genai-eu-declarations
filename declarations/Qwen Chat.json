@@ -20,6 +20,17 @@
       "remove": [
         "img[src*=\"qwen_icon\"]"
       ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://qwen.ai/cookies-notice",
+      "select": [
+        "#ice-container"
+      ],
+      "remove": [
+        "#qwen-ai-layout-top",
+        ".footer--JPmRP55e"
+      ],
+      "executeClientScripts": true
     }
   }
 }
