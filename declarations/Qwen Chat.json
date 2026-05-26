@@ -28,7 +28,8 @@
       ],
       "remove": [
         "#qwen-ai-layout-top",
-        ".footer--JPmRP55e"
+        ".footer--JPmRP55e",
+        ".cookieConfirm--qyDQHqgu"
       ],
       "executeClientScripts": true
     }
