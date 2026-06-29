@@ -49,28 +49,29 @@
       "executeClientScripts": true
     },
     "Acceptable Use Policy": {
-      "select": [
-        "main"
+      "combine": [
+        {
+          "fetch": "https://openai.com/policies/usage-policies/",
+          "select": "main"
+        },
+        {
+          "fetch": "https://openai.com/policies/using-chatgpt-agent-in-line-with-our-policies/",
+          "select": "main"
+        },
+        {
+          "fetch": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+          "select": "article"
+        },
+        {
+          "fetch": "https://openai.com/policies/sharing-publication-policy/",
+          "select": "main"
+        }
       ],
       "remove": [
         "select[name=\"Locale Select\"]",
         "main .sr-only"
       ],
-      "executeClientScripts": true,
-      "combine": [
-        {
-          "fetch": "https://openai.com/policies/usage-policies/"
-        },
-        {
-          "fetch": "https://openai.com/policies/using-chatgpt-agent-in-line-with-our-policies/"
-        },
-        {
-          "fetch": "https://openai.com/policies/creating-images-and-videos-in-line-with-our-policies/"
-        },
-        {
-          "fetch": "https://openai.com/policies/sharing-publication-policy/"
-        }
-      ]
+      "executeClientScripts": true
     },
     "In-App Purchases Policy": {
       "fetch": "https://openai.com/policies/service-credit-terms/",
