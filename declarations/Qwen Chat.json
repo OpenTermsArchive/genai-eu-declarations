@@ -5,20 +5,24 @@
       "fetch": "https://chat.qwen.ai/legal-agreement/terms-of-service",
       "executeClientScripts": true,
       "select": [
-        ".terms-of-service-legal-page"
+        "#ice-container"
       ],
       "remove": [
-        "img[src*=\"qwen_icon\"]"
+        "#qwen-ai-layout-top",
+        ".footer--JPmRP55e",
+        ".cookieConfirm--qyDQHqgu"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://chat.qwen.ai/legal-agreement/privacy-policy",
       "executeClientScripts": true,
       "select": [
-        ".privacy-legal-page"
+        "#ice-container"
       ],
       "remove": [
-        "img[src*=\"qwen_icon\"]"
+        "#qwen-ai-layout-top",
+        ".footer--JPmRP55e",
+        ".cookieConfirm--qyDQHqgu"
       ]
     },
     "Trackers Policy": {
