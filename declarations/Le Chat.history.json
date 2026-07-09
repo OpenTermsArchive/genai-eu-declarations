@@ -1,0 +1,106 @@
+{
+"Terms of Service": [
+  {
+      "combine": [
+        {
+          "fetch": "https://legal.mistral.ai/terms/eu-consumers-terms-of-service",
+          "select": [
+            "div"
+          ],
+          "remove": [
+            "button",
+            "footer",
+            "nav",
+            "aside"
+          ]
+        },
+        {
+          "fetch": "https://mistral.ai/legal/",
+          "select": [
+            "main"
+          ],
+          "remove": [
+            "header",
+            "footer"
+          ]
+        }
+      ],
+      "ValidUntil": "2026-07-09T19:07:00.000Z"
+    }
+  ],
+    "Privacy Policy": [
+     {
+      "fetch": "https://legal.mistral.ai/terms/privacy-policy",
+      "select": [
+        "div"
+      ],
+      "remove": [
+        "button",
+        "footer",
+        "nav",
+        "aside"
+      ],
+     "ValidUntil": "2026-07-09T19:07:00.000Z"
+    }
+  ],
+    "Trackers Policy": [
+      {
+      "fetch": "https://legal.mistral.ai/terms/cookie-policy",
+      "select": [
+        "div"
+      ],
+      "remove": [
+        "button",
+        "footer",
+        "nav",
+        "aside"
+      ],
+     "ValidUntil": "2026-07-09T19:07:00.000Z"
+    }
+  ],
+    "Commercial Terms": [
+      {
+      "fetch": "https://legal.mistral.ai/terms/commercial-terms-of-service",
+      "select": [
+        "div"
+      ],
+      "remove": [
+        "button",
+        "footer",
+        "nav",
+        "aside"
+      ],
+     "ValidUntil": "2026-07-09T19:07:00.000Z"
+    }
+   ],
+    "Data Processor Agreement": [
+      {
+      "fetch": "https://legal.mistral.ai/terms/data-processing-addendum",
+      "select": [
+        "div"
+      ],
+      "remove": [
+        "button",
+        "footer",
+        "nav",
+        "aside"
+      ],
+     "ValidUntil": "2026-07-09T19:07:00.000Z"
+    }
+   ],
+    "Acceptable Use Policy": [
+    {
+      "fetch": "https://legal.mistral.ai/terms/usage-policy",
+      "select": [
+        "div"
+      ],
+      "remove": [
+        "button",
+        "footer",
+        "nav",
+        "aside"
+      ],
+      "ValidUntil": "2026-07-09T19:07:00.000Z"
+    }
+   ]
+  }
