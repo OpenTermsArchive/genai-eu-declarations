@@ -47,21 +47,29 @@
         {
           "fetch": "https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors",
           "select": [
-            ".article"
+            "main"
           ],
           "remove": [
             ".avatar__info",
-            ".related_articles"
+            ".related_articles",
+            ".DocsArticle_relatedList__tzZU6",
+            ".DocsArticle_reactions__MwRj3",
+            ".DocsArticle_relatedTitle__Ysv8Y",
+            "button"
           ]
         },
         {
           "fetch": "https://support.anthropic.com/en/articles/9528712-exceptions-to-our-usage-policy",
           "select": [
-            ".article"
+            "main"
           ],
           "remove": [
             ".avatar__info",
-            ".related_articles"
+            ".related_articles",
+            ".DocsArticle_relatedList__tzZU6",
+            ".DocsArticle_reactions__MwRj3",
+            ".DocsArticle_relatedTitle__Ysv8Y",
+            "button"
           ]
         }
       ]
@@ -98,17 +106,25 @@
           ],
           "remove": [
             ".avatar__info",
-            ".related_articles"
+            ".related_articles",
+            ".DocsArticle_relatedList__tzZU6",
+            ".DocsArticle_reactions__MwRj3",
+            ".DocsArticle_relatedTitle__Ysv8Y",
+            "button"
           ]
         },
         {
           "fetch": "https://support.anthropic.com/en/articles/9035075-law-enforcement-requests",
           "select": [
-            ".article"
+            "main"
           ],
           "remove": [
             ".avatar__info",
-            ".related_articles"
+            ".related_articles",
+            ".DocsArticle_relatedList__tzZU6",
+            ".DocsArticle_reactions__MwRj3",
+            ".DocsArticle_relatedTitle__Ysv8Y",
+            "button"
           ]
         }
       ]
@@ -118,23 +134,31 @@
         {
           "fetch": "https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms",
           "select": [
-            ".article"
+            "main"
           ],
           "remove": [
             ".avatar__info",
-            ".related_articles"
+            ".related_articles",
+            ".DocsArticle_relatedList__tzZU6",
+            ".DocsArticle_reactions__MwRj3",
+            ".DocsArticle_relatedTitle__Ysv8Y",
+            "button"
           ]
         },
         {
           "fetch": "https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy",
           "select": [
-            ".article"
+            "main"
           ],
           "remove": [
             ".avatar__info",
             ".related_articles",
             "[data-testid=\"toc-body\"]",
-            "[data-testid=\"toc-dropdown\"]"
+            "[data-testid=\"toc-dropdown\"]",
+            ".DocsArticle_relatedList__tzZU6",
+            ".DocsArticle_reactions__MwRj3",
+            ".DocsArticle_relatedTitle__Ysv8Y",
+            "button"
           ]
         }
       ]
