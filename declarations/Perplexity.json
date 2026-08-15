@@ -4,37 +4,57 @@
     "Terms of Service": {
       "fetch": "https://www.perplexity.ai/hub/legal/terms-of-service",
       "select": [
-        "[data-framer-name=Post]"
+        "main"
       ],
-      "executeClientScripts": true
+      "executeClientScripts": true,
+      "remove": [
+        "._topBar_1s0ai_27",
+        "nav"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.perplexity.ai/hub/legal/privacy-policy",
       "select": [
-        "[data-framer-name=Post]"
+        "main"
       ],
-      "executeClientScripts": true
+      "executeClientScripts": true,
+      "remove": [
+        "._topBar_1s0ai_27",
+        "nav"
+      ]
     },
     "Data Processor Agreement": {
       "fetch": "https://www.perplexity.ai/hub/legal/dpa",
       "select": [
-        "[data-framer-name=Post]"
+        "main"
       ],
-      "executeClientScripts": true
+      "executeClientScripts": true,
+      "remove": [
+        "._topBar_1s0ai_27",
+        "nav"
+      ]
     },
     "Acceptable Use Policy": {
       "fetch": "https://www.perplexity.ai/hub/legal/aup",
       "select": [
-        "[data-framer-name=Post]"
+        "main"
       ],
-      "executeClientScripts": true
+      "executeClientScripts": true,
+      "remove": [
+        "._topBar_1s0ai_27",
+        "nav"
+      ]
     },
     "Developer Terms": {
       "fetch": "https://www.perplexity.ai/hub/legal/perplexity-api-terms-of-service",
       "select": [
-        "[data-framer-name=Post]"
+        "main"
       ],
-      "executeClientScripts": true
+      "executeClientScripts": true,
+      "remove": [
+        "._topBar_1s0ai_27",
+        "nav"
+      ]
     }
   }
 }
