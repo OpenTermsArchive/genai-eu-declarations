@@ -27,6 +27,9 @@
         "select[name=\"Locale Select\"]",
         "main .sr-only"
       ],
+      "filter": [
+        "removeOpenAITrackingParams"
+      ],
       "executeClientScripts": true,
       "combine": [
         {
@@ -71,6 +74,9 @@
         "select[name=\"Locale Select\"]",
         "main .sr-only"
       ],
+      "filter": [
+        "removeRelativeUpdatedDate"
+      ],
       "executeClientScripts": true
     },
     "In-App Purchases Policy": {
@@ -104,6 +110,9 @@
         "select[name=\"Locale Select\"]",
         "main .sr-only"
       ],
+      "filter": [
+        "removeOpenAITrackingParams"
+      ],
       "executeClientScripts": true
     },
     "Vulnerability Disclosure Policy": {
@@ -125,6 +134,9 @@
       "remove": [
         "select[name=\"Locale Select\"]",
         "main .sr-only"
+      ],
+      "filter": [
+        "removeOpenAITrackingParams"
       ],
       "executeClientScripts": true
     },
