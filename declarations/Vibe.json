@@ -12,7 +12,9 @@
             "button",
             "footer",
             "nav",
-            "aside"
+            "aside",
+            "img"
+
           ]
         },
         {
@@ -36,7 +38,8 @@
         "button",
         "footer",
         "nav",
-        "aside"
+        "aside",
+        "img"
       ]
     },
     "Trackers Policy": {
@@ -48,7 +51,8 @@
         "button",
         "footer",
         "nav",
-        "aside"
+        "aside",
+        "img"
       ]
     },
     "Commercial Terms": {
@@ -60,7 +64,8 @@
         "button",
         "footer",
         "nav",
-        "aside"
+        "aside",
+        "img"
       ]
     },
     "Data Processor Agreement": {
@@ -72,7 +77,8 @@
         "button",
         "footer",
         "nav",
-        "aside"
+        "aside",
+        "img"
       ]
     },
     "Acceptable Use Policy": {
@@ -84,7 +90,8 @@
         "button",
         "footer",
         "nav",
-        "aside"
+        "aside",
+        "img"
       ]
     }
   }
