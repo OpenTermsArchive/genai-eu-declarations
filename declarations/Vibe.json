@@ -2,30 +2,16 @@
   "name": "Vibe",
   "terms": {
     "Terms of Service": {
-      "combine": [
-        {
-          "fetch": "https://legal.mistral.ai/terms/eu-consumers-terms-of-service",
-          "select": [
-            "div"
-          ],
-          "remove": [
-            "button",
-            "footer",
-            "nav",
-            "aside",
-            "img"
-          ]
-        },
-        {
-          "fetch": "https://mistral.ai/legal/",
-          "select": [
-            "main"
-          ],
-          "remove": [
-            "header",
-            "footer"
-          ]
-        }
+      "fetch": "https://legal.mistral.ai/terms/eu-consumers-terms-of-service",
+      "select": [
+        "div"
+      ],
+      "remove": [
+        "button",
+        "footer",
+        "nav",
+        "aside",
+        "img"
       ]
     },
     "Privacy Policy": {
