@@ -31,14 +31,6 @@
     "fetcher": {
       "language": "en-IE, en-GB, en"
     },
-    "reporter": {
-      "type": "github",
-      "repositories": {
-        "declarations": "OpenTermsArchive/genai-eu-declarations",
-        "versions": "OpenTermsArchive/genai-eu-versions",
-        "snapshots": "OpenTermsArchive/genai-eu-snapshots"
-      }
-    },
     "dataset": {
       "title": "genai-eu",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/genai-eu-versions"
